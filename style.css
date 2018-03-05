@@ -1,0 +1,92 @@
+/*Projektowany od 8 lutego 2018, 20:34*/body{
+    z-index:-2;
+    background:#171717;
+    margin-top:0;
+    margin:0;padding:0;
+    width:100%;height:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+canvas{margin-top:0; z-index:-1;display:block;vertical-align: bottom;width:100%;height:100%;
+}#particles-js{margin-top:0;z-index:-1; position:absolute; width:100%;height:100%; background-color:#171717;}
+.menu{
+    width:13%;
+    height:100%;
+    margin-left:87%;
+    z-index:-9;
+    position:relative;
+    display:inline-block;
+}.menu:hover .dropdown-content{
+    visibility:visible;
+}.menu:hover .dropbtn{
+    opacity:1;
+    cursor:default;
+}.menu img:hover{
+    cursor:pointer;
+}
+.dropbtn{
+    z-index:5;
+    position:relative;
+    right:0;
+    float:right;
+    width:80%;
+    top:0;
+    background-color:#d1d1d1;
+    opacity:0.3;
+    padding:16px;
+    border:none;
+    cursor:pointer;
+    transition:ease-in-out 0.3s;
+}.dropbtn img{
+    width:70%;
+}.dropbtn a{
+    font-size:;
+}.dropbtn img:hover{
+    filter:drop-shadow(1px 1px 0px red);
+}
+.dropdown-content{
+    visibility:hidden;
+    position:absolute;
+    right:80%;
+    background-color:#d1d1d1;
+    min-width: 100px;
+    width:150%;
+    height:100vh;
+    top:0;
+    overflow-y:auto;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:4;
+}.dropdown-content button{
+    border:none;
+    cursor:pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}.dropdown-content img{
+    width:100%;
+}
+.dropdown-content button:hover {transition:ease-in-out 0.3s;background-color:#f1f1f1}
+
+#components{
+
+}#components img{
+    display:block;
+    position: absolute;
+    cursor:default;
+    transition:ease-in-out 0.3s;
+}
+#cpu:hover,#cooling:hover,#gpu:hover,#psu:hover{
+    filter:drop-shadow(25px 25px 30px#9b9b61);
+}
+/*Z-INDEX LEVELS*
+    *1-2 with lighting
+    *3 without lighting
+*/
+#case{width:30%;height:;position:relative;filter:drop-shadow(15px 15px 50px#000000);}
+#motherboard{z-index:1;width:14%;margin-top:5%;margin-left:2%;}
+#cpu{z-index:1;}
+#cooling{z-index:3;}
+#gpu{z-index:3;width:15.4%;margin-top:15%;margin-left:1%;}
+#psu{z-index:3;}
+#lighting{z-index:2;position:absolute;margin-top:3.1%;margin-left:1.64%;width:25%;box-shadow: inset 0px 0px 200px -60px #fd2a2a;-moz-box-shadow: inset 0px 0px 200px -60px #fd2a2a;border-radius:3px;}

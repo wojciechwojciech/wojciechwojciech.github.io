@@ -1,0 +1,52 @@
+<!--Projektowany od 8 lutego 2018, 20:34-->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="engine.js"></script>
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Your PC</title>
+</head><body oncontextmenu="window.event.returnValue=false;">
+    <div unselectable="on"onselectstart="return false;"onmousedown="return false;"id="particles-js"></div>
+    <script src="particle.js"></script>
+    <script src="bg.js"></script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <header id="header"></header>
+    <figure unselectable="on"onselectstart="return false;"onmousedown="return false;"id="components">
+        <img title="" id="case"src="img/spcrg4t.png"alt="">
+        <img id="motherboard"src="img/b350tomahawk.png"alt="">
+        <img id="cpu"src=""alt="">
+        <img title=""id="cooling"src=""alt="">
+        <img title=""id="gpu"src="img/nv1080ti.png"alt="">
+        <img title=""id="psu"src=""alt="">
+        <div id="lighting"></div>
+    </figure>
+    <div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">
+        <button class="dropbtn"><img src="img/gui/case.png"></button>
+        <div class="dropdown-content">
+            <button onclick='changeCase("img/spcrg4t.png");'><img src="img/spcrg4t.png"></button>
+            <button onclick='changeCase("img/spcgladiusm35w.png");'><img src="img/spcgladiusm35w.png"></button>
+            <div class="clearboth"></div>
+        </div>
+    </div><div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">      
+        <button class="dropbtn"><img src="img/gui/motherboard.png"></button>
+        <div class="dropdown-content">
+            <button onclick='changeMotherboard("img/b350tomahawk.png");'><img src="img/b350tomahawk.png"></button>
+            <button onclick='changeMotherboard("img/b350gamingplus.png");'><img src="img/b350gamingplus.png"></button>
+        </div>
+    </div><div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">      
+        <button class="dropbtn"><img src="img/gui/gpu.png"></button>
+        <div class="dropdown-content">
+            <button onclick='changeGpu("img/gpu.png");'><img src="img/nv1080ti.png"></button>
+        </div>
+    </div><div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">      
+        <button class="dropbtn"><img src="img/gui/cooling.png"></button>
+        <div class="dropdown-content">
+            <button onclick='changeCooling("img/.png");'><img src="img/.png"></button>
+        </div>
+    </div>
+    <footer style="display:none;"id="footer"><div>Icons made by<a href="http://www.freepik.com"title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"target="_blank">CC 3.0 BY</a></div></footer>
+</body></html>
