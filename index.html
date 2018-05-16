@@ -4,49 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="favicon.png" />
     <link rel="stylesheet" href="style.css">
     <script src="jquery.js"></script>
     <script src="engine.js"></script>
     <meta name="viewport"content="width=device-width,initial-scale=1.0">
-    <title>Your PC</title>
+    <title>Desktop Look</title>
 </head><body oncontextmenu="window.event.returnValue=false;">
     <div unselectable="on"onselectstart="return false;"onmousedown="return false;"id="particles-js"></div>
     <script src="particle.js"></script>
     <script src="bg.js"></script>
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <header id="header"></header>
+    <header id="header">
+        <img alt=""src="logo.png"/>
+        <p>Desktop Look</p>
+        <div class="nodrag" id="close-btn btn">X</div>
+        <div class="nodrag" id="max-btn btn">[]</div>
+        <div class="nodrag" id="min-btn btn">_</div>
+    </header>
     <figure unselectable="on"onselectstart="return false;"onmousedown="return false;"id="components">
-        <img title="" id="case"src="img/spcrg4t.png"alt="">
-        <img id="motherboard"src="img/b350tomahawk.png"alt="">
+        <img title="" id="case"src="img/cases/spcrg4t.png"alt="">
+        <img id="motherboard"src=""alt="">
         <img id="cpu"src=""alt="">
         <img title=""id="cooling"src=""alt="">
-        <img title=""id="gpu"src="img/nv1080ti.png"alt="">
+        <img title=""id="gpu"src=""alt="">
         <img title=""id="psu"src=""alt="">
-        <div id="lighting"></div>
+<!--        <div id="lighting"></div>-->
     </figure>
     <div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">
         <button class="dropbtn"><img src="img/gui/case.png"></button>
-        <div class="dropdown-content">
-            <button onclick='changeCase("img/spcrg4t.png");'><img src="img/spcrg4t.png"></button>
-            <button onclick='changeCase("img/spcgladiusm35w.png");'><img src="img/spcgladiusm35w.png"></button>
-            <div class="clearboth"></div>
+        <div class="dropdown-content cases">
+            <button onclick='changeCase("img/cases/spcrg4t.png");'><img src="img/cases/spcrg4t.png">SilentiumPC rg4t</button>
+            <button onclick='changeCase("img/cases/spcgladiusm35w.png");'><img src="img/cases/spcgladiusm35w.png">SilentiumPC Gladius m35 w</button>
         </div>
     </div><div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">      
         <button class="dropbtn"><img src="img/gui/motherboard.png"></button>
-        <div class="dropdown-content">
-            <button onclick='changeMotherboard("img/b350tomahawk.png");'><img src="img/b350tomahawk.png"></button>
-            <button onclick='changeMotherboard("img/b350gamingplus.png");'><img src="img/b350gamingplus.png"></button>
+        <div class="dropdown-content motherboards">
+            <button onclick='changeMotherboard("img/motherboards/b350tomahawk.png");'><img src="img/motherboards/b350tomahawk.png">Tomahawk B350</button>
+            <button onclick='changeMotherboard("img/motherboards/b350gamingplus.png");'><img src="img/motherboards/b350gamingplus.png">MSI B350 Gaming Plus</button>
+            <button onclick='changeMotherboard("img/motherboards/b350msipcmate.png");'><img src="img/motherboards/b350msipcmate.png">MSI B350 PC Mate</button>
         </div>
     </div><div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">      
         <button class="dropbtn"><img src="img/gui/gpu.png"></button>
-        <div class="dropdown-content">
-            <button onclick='changeGpu("img/gpu.png");'><img src="img/nv1080ti.png"></button>
+        <div class="dropdown-content gpus">
+            <button onclick='changeGpu("img/gpus/nv1080ti.png");'><img src="img/gpus/nv1080ti.png">GTX 1080 ti</button>
         </div>
     </div><div unselectable="on"onselectstart="return false;"onmousedown="return false;" class="menu">      
         <button class="dropbtn"><img src="img/gui/cooling.png"></button>
         <div class="dropdown-content">
-            <button onclick='changeCooling("img/.png");'><img src="img/.png"></button>
+            <button onclick='changeCooling("img/.png");'><img src=""></button>
         </div>
     </div>
     <footer style="display:none;"id="footer"><div>Icons made by<a href="http://www.freepik.com"title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"target="_blank">CC 3.0 BY</a></div></footer>
