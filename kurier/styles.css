@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
+    background: #e5e5e5;
 }body p{
     padding:0;margin:0;
 }
@@ -11,7 +12,7 @@ nav{
     height: 6.4%;
     display: flex;
     align-items: center;
-    background: #e5e5e5;
+    background: #f7f7f7;
     border-bottom-width: 4px;
     border-bottom-style: solid;
     border-image: linear-gradient(to left, #34669f, #d275ba )1;
@@ -45,7 +46,7 @@ article{
     margin: .5%;
     padding: .5%;
     max-width: 25%;
-    background: #e5e5e5;
+    background: #f7f7f7;
     border-bottom-width: 4px;
     border-bottom-style: solid;
     border-image: linear-gradient(to left, #34669f, #d275ba )1;
