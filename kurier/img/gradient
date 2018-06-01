@@ -1,0 +1,7 @@
+background-image: linear-gradient(top, rgb(174,120,120) 0%, rgb(210,117,
+    186) 100%);
+background-image: -moz-linear-gradient(center top, rgb(174,120,120) 0%,
+    rgb(210,117,186) 100%);
+background-image: -webkit-gradient(linear, left top, left bottom,
+     color-stop(0.000, rgb(174,120,120)),color-stop(1.000, rgb(210,117,
+    186)));
