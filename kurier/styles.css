@@ -35,7 +35,8 @@ content{
 */
     flex-flow: row wrap;
     justify-content: space-around;
-    align-content: stretch;
+/*    align-content: stretch;*/
+    align-items: center;
 /*    flex-wrap: wrap-reverse;*/
 /*
     background-image: -webkit-linear-gradient(top, rgb(174,120,120) 0%, rgb(210,117,
@@ -45,7 +46,7 @@ content{
 article{
     margin: .5%;
     padding: .5%;
-    max-width: 25%;
+    max-width: 20%;
     background: #f7f7f7;
     border-bottom-width: 4px;
     border-bottom-style: solid;
