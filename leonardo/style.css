@@ -1,0 +1,151 @@
+body{
+	background-image: url("leonardo-image.jpg");
+	/* background image by subtlepatterns.com */
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	text-decoration: none;
+}
+
+.title{
+	box-shadow: 0px 2px 50px dimgrey;
+	width:80%;
+	padding:10px;
+	float:right;
+	height:auto;
+	text-align: center;
+	background:dimgrey;
+	font-size: 40px;
+	font-weight: 600;
+	opacity:0.8;
+}
+
+.title p{
+	cursor: default;
+}
+.nav{
+	float: left;
+	width:100%;
+	
+
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:15%;
+    background-color: dimgray;
+    opacity:0.8;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    font-weight: 600;
+    position: fixed;
+    display: block;
+    box-shadow: 0px 2px 50px dimgrey;
+}
+
+
+.nav li a {
+    display: block;
+    color: #000;
+    padding: 20px 16px;
+    text-decoration: none;
+    transition-duration: 300ms;
+    display: block;
+
+}
+
+.nav li a:hover {
+    color: white;
+}
+
+.content{
+	box-shadow: 0px 2px 50px dimgrey;
+	width:80%;
+	padding:15px;
+	float: right;
+	margin-top:15px;
+	background:dimgrey;
+	opacity:0.8;
+	font-size: 30px;
+	font-weight: 700;
+	
+
+}
+
+.content p{
+	padding:20px;
+	cursor: default;
+	text-align: justify;
+}
+
+
+
+
+.middle{
+	padding:;
+}
+
+
+.footer{
+	background:dimgrey;
+	
+	margin-top:30px;
+	width:100%;
+	padding:20px;
+	text-align: center;
+	font-size: 30px;
+	bottom: 0;
+	position: absolute;
+
+}
+
+
+
+
+
+.autor {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.autor:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition:width.5s ease,background-color.5s ease;
+}
+.autor:hover:after {
+	width: 100%;
+	background: black;
+}
+
+.image{
+	border:outset 4px white;
+}
+
+.updateloglink img:hover{
+	opacity:0.9;
+}
+
+.updatelogtextlink :hover{
+	opacity:0.9;
+
+}
+
+.freehost :hover{
+	box-shadow: 0px 2px 50px black;
+}
