@@ -46,9 +46,12 @@ body{
     box-shadow: 10px 10px 50px 1px #8d8d8d;
     line-height: 30px;
     font-size: 17px;
+}#content h1{
+    padding:1%;
 }#content p{
     margin-left:2%;
     margin-right:2%;
+    margin-top:2%;
 }#content span{
     font-family: sans-serif;
     font-size: 25px;
